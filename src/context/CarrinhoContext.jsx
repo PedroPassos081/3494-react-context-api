@@ -1,6 +1,7 @@
 import { createContext } from "react"
 
 export const CarrinhoContext = createContext()
+CarrinhoContext.displayName = "Carrinho"
 
 export const CarrinhoPovider = ({ children }) => {
     const [carrinho, setCarrinho] = useState([]);
