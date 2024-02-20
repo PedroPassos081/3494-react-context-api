@@ -6,7 +6,7 @@ import Titulo from "@/components/Titulo";
 import { useCarrinhoContext } from "../../hooks/useCarrinhoContext";
 
 const CarrinhoSuspenso = () => {
-  const { carrinho, valorTotal } = useCarrinhoContext()
+  const { carrinho, valorTotal } = useCarrinhoContext();
   return (
     <div
       className="offcanvas offcanvas-end text-bg-dark"
